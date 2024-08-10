@@ -1,0 +1,60 @@
+.bheading {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-image: url('https://png.pngtree.com/background/20230517/original/pngtree-flood-flooded-city-street-picture-image_2639357.jpg');
+    background-size:cover; 
+    background-position:center; 
+    width: 100%;
+    height: 75vh; 
+    text-align:center;
+    
+  }
+  .maindiv{
+    width: 100%;
+    min-height: calc(80vh);
+    padding-bottom: 10px; 
+    
+}
+.button-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction:row;
+    width:25%;
+}
+.article-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:65vh;
+    
+    
+}
+.article-container h3{
+    color:black;
+    font-size: medium;
+    
+}
+.article-container h2{
+    color:black;
+    margin:0%;
+    
+}
+.article-container div{
+    width:19%;
+    height:50vh;
+    text-align: center;
+    background-color: aliceblue;
+   border-top: 8px;
+   border-radius: 5px;
+    }
+.article-container img{
+        margin:10px;
+    }
+
+
+
